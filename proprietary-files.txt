@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 11 (CPH2449_15.0.0.840(EX01)).
+## are from OnePlus Ace 2 Pro (PJA110_15.0.0.840(EX01)).
 
 # ACDB
 odm/etc/acdbdata/FTM/acdb_cal.acdb
@@ -93,24 +93,18 @@ odm/etc/camera/capture_bokeh_params.json
 odm/etc/camera/capture_lutportrait_params.json
 odm/etc/camera/capture_neonportrait_params.json
 odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
-odm/etc/camera/cfr_bin/CFR_imx581.bin
-odm/etc/camera/cfr_bin/CFR_imx709.bin
+odm/etc/camera/cfr_bin/CFR_imx355.bin
 odm/etc/camera/cfr_bin/CFR_imx890.bin
-odm/etc/camera/config/camera_third_party_feature_config.protobuf
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_unit_feature_config.protobuf
-odm/etc/camera/config/imx581
-odm/etc/camera/config/imx709
-odm/etc/camera/config/imx800
+odm/etc/camera/config/imx355
 odm/etc/camera/config/imx890
-odm/etc/camera/config/oem_layer_config
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
-odm/etc/camera/config/oplus_camera_preview_decision_config.json
 odm/etc/camera/config/oplus_preview_decision_params.json
+odm/etc/camera/config/ov02b
 odm/etc/camera/config/s5k3p9
-odm/etc/camera/config/s5kjn1sq03
 odm/etc/camera/config/sr_params.xml
 odm/etc/camera/config/video_beauty_default_config
 odm/etc/camera/distortionParams.bin
@@ -130,7 +124,7 @@ odm/etc/camera/dng/ToneCurve_imx581_2.txt
 odm/etc/camera/dng/ToneCurve_imx709_3.txt
 odm/etc/camera/dng/ToneCurve_imx890_0.txt
 odm/etc/camera/eis_camera.vcfg
-odm/etc/camera/facesr_hd_composite_ref_4.1.18_qcom8550_ppl3_ocl.model
+odm/etc/camera/facesr_hd_composite_ref_4.3.15_qcom8550_qnn_segqnn_qnn2.3_qualityv27.model
 odm/etc/camera/fb_default
 odm/etc/camera/fb_model/000.png
 odm/etc/camera/fb_model/000_pre.bin
@@ -712,10 +706,6 @@ odm/etc/camera/pfb_bin/BeardSharp.bin
 odm/etc/camera/pfb_bin/BeardSharp.frag;MODULE_SUFFIX=.frag
 odm/etc/camera/pfb_bin/BeardSharp.vert;MODULE_SUFFIX=.vert
 odm/etc/camera/pfb_bin/PreAddSRBinary.bin
-odm/etc/camera/pfb_bin/PreBilaFilterBinary.bin
-odm/etc/camera/pfb_bin/PreBilaFilterBinaryV.bin
-odm/etc/camera/pfb_bin/PreBilaFilterMixBinary.bin
-odm/etc/camera/pfb_bin/PreBilaFilterMixByFaceTargetBinary.bin
 odm/etc/camera/pfb_bin/PreCalVarBinary.bin
 odm/etc/camera/pfb_bin/PreCalcSRBinary.bin
 odm/etc/camera/pfb_bin/PreCalculateOutTex.bin
@@ -837,18 +827,17 @@ odm/etc/vintf/manifest/manifest_oplus_camera_rfi.xml
 odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_cammidasservice_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml
-odm/lib64/camera/com.qti.sensor.imx581.so
-odm/lib64/camera/com.qti.sensor.imx709.so
-odm/lib64/camera/com.qti.sensor.imx800.so
+odm/lib64/camera/com.qti.sensor.imx355.so
 odm/lib64/camera/com.qti.sensor.imx890.so
+odm/lib64/camera/com.qti.sensor.ov02b.so
 odm/lib64/camera/com.qti.sensor.s5k3p9.so
-odm/lib64/camera/com.qti.sensormodule.qtech_imx581.bin
-odm/lib64/camera/com.qti.sensormodule.qtech_imx709.bin
 odm/lib64/camera/com.qti.sensormodule.qtech_imx890.bin
+odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin
+odm/lib64/camera/com.qti.sensormodule.sunny_imx355.bin
 odm/lib64/camera/com.qti.sensormodule.sunny_s5k3p9.bin
-odm/lib64/camera/com.qti.tuned.qtech_imx581.bin
-odm/lib64/camera/com.qti.tuned.qtech_imx709.bin
+odm/lib64/camera/com.qti.tuned.imx355_sunny.bin
 odm/lib64/camera/com.qti.tuned.qtech_imx890.bin
+odm/lib64/camera/com.qti.tuned.shine_ov02b.bin
 odm/lib64/camera/com.qti.tuned.sunny_s5k3p9.bin
 odm/lib64/camera/components/com.oplus.node.preview.so
 odm/lib64/camera/components/com.oplus.node.sstabdefer.so
@@ -868,10 +857,7 @@ odm/lib64/camera/libaecCustomParam_Cam0.bin
 odm/lib64/camera/libaecCustomParam_Cam1.bin
 odm/lib64/camera/libaecCustomParam_Cam2.bin
 odm/lib64/camera/libaecCustomParam_Cam3.bin
-odm/lib64/camera/libafCustomParamFrontMain.bin
 odm/lib64/camera/libafCustomParamMain.bin
-odm/lib64/camera/libafCustomParamTele.bin
-odm/lib64/camera/libafCustomParamWide.bin
 odm/lib64/camera/revision.txt
 odm/lib64/hw/camera.oemlayer.so
 odm/lib64/lib2DSlender.so
@@ -959,6 +945,7 @@ odm/lib64/libapsjpeg.so
 odm/lib64/libapspng.so
 odm/lib64/libapsultrahdr.so
 odm/lib64/libapsyuv.so
+odm/lib64/libarc.ion.so
 odm/lib64/libarcsoft_distortion_correction.so
 odm/lib64/libarcsoft_dual_sat.so
 odm/lib64/libarcsoft_dual_zoomtranslator.so
@@ -984,7 +971,6 @@ odm/lib64/libarcsoft_smart_denoise.so
 odm/lib64/libarcsoft_smart_denoise_v4.so
 odm/lib64/libarcsoft_triple_sat.so
 odm/lib64/libarcsoft_triple_zoomtranslator.so
-odm/lib64/libarcsoft_turbo_fusion_raw_grf.so;FIX_SONAME
 odm/lib64/libarcsoft_turbo_fusion_raw_portrait_super_night.so
 odm/lib64/libarcsoft_turbo_fusion_raw_super_night.so
 odm/lib64/libarcsoft_turbo_hdr_raw.so
@@ -992,7 +978,6 @@ odm/lib64/libarcsoft_turbo_hdr_raw_front.so
 odm/lib64/libarcsoft_turbo_raw.so
 odm/lib64/libarcsoft_ultra_high_dynamic_range.so
 odm/lib64/libarcsoft_videoautozoom.so;FIX_SONAME
-odm/lib64/libc++_shared.so
 odm/lib64/libcalculator.so
 odm/lib64/libcalculator_htp.so
 odm/lib64/libcreatebin.so
@@ -1018,10 +1003,9 @@ odm/lib64/liboptical_zoom_dc.so
 odm/lib64/liboptical_zoom_vs.so
 odm/lib64/liboutils.so
 odm/lib64/libpngwrapper.so
-odm/lib64/libportrait_repair_ppl3_ocl.so
+odm/lib64/libportrait_repair_qnn.so
 odm/lib64/libremosaic_wrapper.so
 odm/lib64/libremosaiclib_s5k3p9.so;FIX_SONAME
-odm/lib64/libremosaiclib_s5kjn1.so;FIX_SONAME
 odm/lib64/librmsclib1.so
 odm/lib64/libsaveshaderbin.so
 odm/lib64/libsdk_sr.so
@@ -1029,9 +1013,9 @@ odm/lib64/libsharebuffer.so
 odm/lib64/libsharebuffer_impl.so
 odm/lib64/libsnpe_loader.so
 odm/lib64/libsnpeml.so
-odm/lib64/libssd_det.so
 odm/lib64/libstface_fd_api.so
 odm/lib64/libstfd_mobile_api.so
+odm/lib64/libtrace.so
 odm/lib64/libthirdcapability.so
 odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
@@ -1211,7 +1195,6 @@ vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
 vendor/lib64/libmmcamera_mfnr_t4.so
 vendor/lib64/libmmcamera_pdpc.so
-vendor/lib64/libnanopb.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopencv3a.so
 vendor/lib64/libopestriping.so
@@ -1235,9 +1218,7 @@ vendor/lib64/vendor.qti.hardware.camera.aon-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Charger
-odm/firmware/fastchg/22861/bms_heating_config.txt
-odm/firmware/fastchg/22861/charging_hyper_mode_config.txt
-odm/firmware/fastchg/22861/charging_thermal_config_default.txt
+odm/firmware/fastchg/22851/charging_hyper_mode_config.txt
 odm/firmware/fastchg/smart_chg_config_table.txt
 vendor/etc/charger_fw_fstab.qti
 
@@ -1245,159 +1226,109 @@ vendor/etc/charger_fw_fstab.qti
 odm/lib64/libclstc_fodcolor_csc.so
 
 # Display (Pixelworks)
-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14_low.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm17.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm2.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm22.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm23.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm5.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm8.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm14.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm14_low.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm17.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm2.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm22.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm23.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm5.txt
-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm8.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm14.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm14_low.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm17.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm2.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm22.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm23.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm5.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm8.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm14.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm14_low.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm17.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm2.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm22.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm23.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm5.txt
-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm8.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14_low.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm17.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm2.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm22.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm23.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm26.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm29.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm2_Def.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm32.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm5.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm8.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/mcfCheck.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/mcfCheck_low.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm14.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm14_low.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm17.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm2.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm22.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm23.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm26.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm29.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm2_Def.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm32.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm5.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm8.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/mcfCheck.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/mcfCheck_low.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm14.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm14_low.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm17.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm2.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm22.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm23.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm26.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm29.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm2_Def.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm32.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm5.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm8.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/mcfCheck.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/mcfCheck_low.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm14.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm14_low.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm17.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm2.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm22.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm23.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm26.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm29.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm2_Def.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm32.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm5.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm8.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/mcfCheck.txt
-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/mcfCheck_low.txt
+odm/etc/inparm/iris7_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm14.txt
+odm/etc/inparm/iris7_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm14_low.txt
+odm/etc/inparm/iris7_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm17.txt
+odm/etc/inparm/iris7_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm2.txt
+odm/etc/inparm/iris7_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm22.txt
+odm/etc/inparm/iris7_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm23.txt
+odm/etc/inparm/iris7_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm5.txt
+odm/etc/inparm/iris7_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm8.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm14.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm14_10nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm14_20nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm14_2nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm14_40nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm14_6nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm14_low.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm17.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm17_10nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm17_20nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm17_2nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm17_40nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm17_6nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm17_low.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm2.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm22.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm23.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm26.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm29.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm32.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm34.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm35.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm37.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm38.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm5.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm5_10nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm5_20nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm5_2nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm5_40nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm5_6nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm5_low.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm8.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm8_10nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm8_20nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm8_2nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm8_40nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm8_6nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/inParm8_low.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/mcfCheck.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/mcfCheck_2nit.txt
+odm/etc/inparm/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel/mcfCheck_low.txt
 odm/etc/iris_configs.xml
-odm/etc/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.dat
-odm/etc/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.fw
-odm/etc/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.xml
-odm/etc/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.dat
-odm/etc/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.fw
-odm/etc/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.xml
-odm/etc/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.dat
-odm/etc/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.fw
-odm/etc/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.xml
-odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.dat
-odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.fw
-odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.xml
+odm/etc/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel.fw
+odm/etc/irissoft_AA536_P_3_A0001_dsc_cmd_mode_panel.xml
+
+# Display (Pixelworks firmware)
+odm/firmware/iris7.fw
+odm/firmware/iris7_ccf1.fw
+odm/firmware/iris7_ccf2.fw
+odm/firmware/iris7_ccf3.fw
+odm/firmware/iris7_ccf4.fw
+odm/firmware/pxlw_i7_panel_AA536_P_3_A0001_dsc_cmd.fw
+odm/firmware/pxlw_i7_vtdr6130_fhd_plus_vid.fw
 
 # Display calibration data
-vendor/etc/display/qdcm_calib_data_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.json
-vendor/etc/display/qdcm_calib_data_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.json
-vendor/etc/display/qdcm_calib_data_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.json
-vendor/etc/display/qdcm_calib_data_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.json
-vendor/etc/ltm_config_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.xml
-vendor/etc/ltm_config_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.xml
-vendor/etc/ltm_config_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.xml
-vendor/etc/ltm_config_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.xml
-
-# eUICC
-my_product/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml
-my_product/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
+my_product/vendor/etc/display_apollo_list_AA536_P_3_A0001_dsc_cmd_mode_panel.xml:vendor/etc/display_apollo_list_AA536_P_3_A0001_dsc_cmd_mode_panel.xml
+vendor/etc/display/qdcm_calib_data_AA536_P_3_A0001_dsc_cmd_mode_panel.json
+vendor/etc/ltm_config_AA536_P_3_A0001_dsc_cmd_mode_panel.xml
 
 # NFC
-odm/etc/nfc/libnfc-mtp-SN100.conf_22861:vendor/etc/libnfc-nxp.conf
-odm/etc/nfc/libnfc-nci.conf_22861:vendor/etc/libnfc-nci.conf
+odm/etc/nfc/libnfc-mtp-SN100.conf_22851:vendor/etc/libnfc-nxp.conf
+odm/etc/nfc/libnfc-nci.conf_22851:vendor/etc/libnfc-nci.conf
 odm/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
 
-
 # Sensors config
-odm/etc/sensor/config/kailua_mtp_ak0991x.json
 odm/etc/sensor/config/kailua_mtp_alsps.json
-odm/etc/sensor/config/kailua_mtp_alsps_hw_tcs3701.json
-odm/etc/sensor/config/kailua_mtp_bmi26x.json
-odm/etc/sensor/config/kailua_mtp_bmp380.json
+odm/etc/sensor/config/kailua_mtp_alsps_hw_tcs3720.json
 odm/etc/sensor/config/kailua_mtp_cct_rear.json
-odm/etc/sensor/config/kailua_mtp_freefall.json
 odm/etc/sensor/config/kailua_mtp_icm4x6xx.json
 odm/etc/sensor/config/kailua_mtp_mmc56x3x.json
 odm/etc/sensor/config/kailua_mtp_oplus_flight_detect.json
-odm/etc/sensor/config/kailua_mtp_oplus_lay.json
+odm/etc/sensor/config/kailua_mtp_oplus_rotation_detect.json
 odm/etc/sensor/config/kailua_mtp_pocket.json
-odm/etc/sensor/config/kailua_mtp_sx933x_0.json
-odm/etc/sensor/config/kailua_mtp_sx933x_down_0.json
+odm/etc/sensor/config/kailua_mtp_smart_prox.json
 odm/etc/sensor/config/lux_aod.json
-odm/etc/sensor/config/salami_qrd_ois_system.json
+odm/etc/sensor/config/xigua_qrd_ois_system.json
 odm/etc/sensor/sensor_config.json
 
 # Touchscreen firmware
-odm/firmware/tp/22811/FW_S3908_SAMSUNG.img
-odm/firmware/tp/22811/FW_S3908_SAMSUNG_FAE.img
-odm/firmware/tp/22811/FW_S3908_SAMSUNG_sys_edge_touch_config.img
-odm/firmware/tp/22811/LIMIT_S3908_SAMSUNG.img
+odm/firmware/tp/22851/FW_S3910_BOE_HBP.img
+odm/firmware/tp/22851/FW_S3910_BOE_HBP_FAE.img
+odm/firmware/tp/22851/LIB_S3910_BOE_HBP.so
+odm/firmware/tp/22851/LIB_S3910_BOE_HBP_TS_ALGO.so
+odm/firmware/tp/22851/LIB_S3910_BOE_HBP_TS_HAL.so
+odm/firmware/tp/22851/LIMIT_S3910_BOE.img
+odm/firmware/tp/22851/LIMIT_S3910_BOE_AGING.img
+odm/firmware/tp/22851/LIMIT_S3910_BOE_HBP.img
+odm/firmware/tp/22851/libIfp.so
+odm/firmware/tp/22851/sys_edge_touch_config.xml
 
 # UFS
-odm/firmware/ufs/SAMSUNG-KLUDG4UHDC-B0E1.bin
 odm/firmware/ufs/SAMSUNG-KLUEG4RHHD-B0G1.bin
-odm/firmware/ufs/SAMSUNG-KLUEG8UHDC-B0E1.bin
-odm/firmware/ufs/SAMSUNG-KLUFG8RHDB-B0E1.bin
 odm/firmware/ufs/SAMSUNG-KLUFG8RHHD-B0G1.bin
+odm/firmware/ufs/SAMSUNG-KLUGGARHHD-B0G1.bin
+odm/firmware/ufs/SKhynix-HN8T274EJKX130.bin
 odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
 
 # Vibrator
@@ -1405,8 +1336,6 @@ odm/etc/aac_richtap.config
 vendor/lib64/libaacvibrator.so
 
 # WiFi
-odm/etc/wifi/kiwi/bdwlan.b0a
-odm/etc/wifi/kiwi/bdwlan.b0e
-odm/etc/wifi/kiwi/bdwlan.b0i
 odm/etc/wifi/kiwi/bdwlan.elf
 odm/etc/wifi/kiwi/regdb.bin
+odm/etc/wifi/kiwi/regdb_version

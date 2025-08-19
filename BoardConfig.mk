@@ -7,16 +7,16 @@
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm8550-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/salami
+DEVICE_PATH := device/oneplus/xigua
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OP591BL1,OP594DL1
+TARGET_OTA_ASSERT_DEVICE := OP5943L1
 
 # Display
 TARGET_SCREEN_DENSITY := 450
 
 # Kernel
-TARGET_KERNEL_ADDITIONAL_FLAGS += CONFIG_SALAMI_DTB=y
+TARGET_KERNEL_ADDITIONAL_FLAGS += CONFIG_XIGUA_DTB=y
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
@@ -27,4 +27,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/salami/BoardConfigVendor.mk
+include vendor/oneplus/xigua/BoardConfigVendor.mk
