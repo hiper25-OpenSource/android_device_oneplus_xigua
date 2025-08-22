@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_xigua.mk
+    $(LOCAL_DIR)/sun_xigua.mk
